@@ -3,3 +3,4 @@ yapf
 doxypypy
 sphinx
 numpydoc
+pylint
