@@ -33,6 +33,7 @@
 import sys
 import os
 
+sys.path.append(os.path.abspath('../modules/Animals'))
 sys.path.append(os.path.abspath('../modules'))
 
 extensions = [

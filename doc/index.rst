@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to py-sample's documentation!
-==================================
+=====================================
 
 Contents:
 
