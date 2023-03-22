@@ -2,7 +2,7 @@
 # @Author: Arunabh Sharma
 # @Date:   2023-03-22 13:08:35
 # @Last Modified by:   Arunabh Sharma
-# @Last Modified time: 2023-03-22 14:19:11
+# @Last Modified time: 2023-03-22 16:49:41
 
 
 class Animal:
@@ -31,7 +31,7 @@ class Animal:
         """Getter for the number of limbs of the animal
 
         Returns:
-            TYPE: The number of limbs of the animal
+            int: The number of limbs of the animal
         """
         return self.num_limbs
 
@@ -39,6 +39,6 @@ class Animal:
         """Getter for the name of the animal
 
         Returns:
-            TYPE: The name of the animal
+            str: The name of the animal
         """
-        return self.num_limbs
+        return self.name

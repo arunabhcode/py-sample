@@ -2,17 +2,17 @@
 # @Author: Arunabh Sharma
 # @Date:   2023-03-22 14:28:45
 # @Last Modified by:   Arunabh Sharma
-# @Last Modified time: 2023-03-22 14:40:57
+# @Last Modified time: 2023-03-22 16:46:04
 
 import sys
 import os
 import pytest
 from nose import with_setup
 
-sys.path.insert(0, os.path.abspath("../modules/animals"))  # NOQA
-sys.path.insert(0, os.path.abspath("modules/animals"))  # NOQA
+sys.path.insert(0, os.path.abspath("../modules/animals"))
+sys.path.insert(0, os.path.abspath("modules/animals"))
 
-from Animal import *
+from Animal import Animal
 from Cat import *
 from Dog import *
 

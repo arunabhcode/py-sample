@@ -2,7 +2,7 @@
 # @Author: Arunabh Sharma
 # @Date:   2023-03-22 13:24:45
 # @Last Modified by:   Arunabh Sharma
-# @Last Modified time: 2023-03-22 14:04:39
+# @Last Modified time: 2023-03-22 16:51:03
 
 from Animal import *
 
@@ -24,6 +24,6 @@ class Dog(Animal):
         """Getter for sounds the Dog makes
 
         Returns:
-            TYPE: Sounds the Dog makes in text form
+            str: Sounds the Dog makes in text form
         """
         return f"{self.name} says: Woof!"
