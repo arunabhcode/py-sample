@@ -20,7 +20,7 @@ Setup coding style
 ~~~~~~~~~~~~~~~~~~~~~
     sudo apt-get install python3-pip 
 
-    sudo pip3 install -r requirements.txt
+    sudo pip install -r requirements.txt
 ~~~~~~~~~~~~~~~~~~~~~
 
 - Open Sublime
@@ -37,8 +37,46 @@ Setup coding style
 
 - search and install FileHeader
 
-- search and install PyYapf Python Formatter
+- search and install PyYapf Python Formatter, change settings
+
+~~~~~~~~~~~~~~~~~~~~~
+{
+    "on_save": true
+}
+~~~~~~~~~~~~~~~~~~~~~
 
 - search and install Markdown Preview
 
 <br />
+
+Documentation
+=============
+
+- To setup the docs folder use
+
+~~~~~~~~~~~~~~~~~~~~~
+sphinx-quickstart
+~~~~~~~~~~~~~~~~~~~~~
+
+- To process code documentation into .rst files
+
+~~~~~~~~~~~~~~~~~~~~~
+cd docs/
+sphinx-apidoc -f -o ./ ../modules/
+~~~~~~~~~~~~~~~~~~~~~
+
+- To generate documentation
+
+~~~~~~~~~~~~~~~~~~~~~
+cd docs/
+make html
+~~~~~~~~~~~~~~~~~~~~~
+
+Test
+====
+
+- Run tests from root
+
+~~~~~~~~~~~~~~~~~~~~~
+pytest -v unit-tests/
+~~~~~~~~~~~~~~~~~~~~~
